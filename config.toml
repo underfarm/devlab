@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Devlab"
+
+# Adding a theme:
+theme = "hyde-hyde"
+[params.social]
+	twitter = "none"
+	github = "underfarm"
