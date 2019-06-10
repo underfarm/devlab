@@ -1,0 +1,68 @@
+#+hugo_base_dir: ~/blog
+* Editing in Emacs
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts
+:END:
+
+hello wardsj
+
+** Editing in Emacs
+:PROPERTIES:
+:EXPORT_HUGO_MENU: :menu "main"
+:EXPORT_FILE_NAME: _index
+:END:
+This section devoted to Orson Wells, R.I.P.
+** Using the 'register!
+:PROPERTIES:
+:EXPORT_FILE_NAME: Using the 'register!
+:END:
+
+Usually when interacting with your computer, you are used to having one clipboard that gets overwritten if you copy something else, but in emacs we can have multiple 'clipboard' - meet the *register*
+
+The register can store sevevral types of data, bee it a string, multiple lines of text or even the point in a buffer, but unlike the system clipboard, you can have several registers at the same time.
+
+For instance, the command 'copy-to-register' will copy the current active region to a register. When you have selected the region and executed the command, you will then be prompted for which register to store the text - you must name the register, like the letter 'a' or the number '1', etc.
+
+When you want to retrievev something from a register, you use the command 'insert-register'.
+
+In the demo below, i copy two seperate regions of text into register 'a' and register 'b'. To specify the register, you just type the character when prompted.
+
+[[http:/ox-hugo/register.gif]]
+
+
+If you use the command 'point-to-register', you can jump between different save-splot in the buffer, or across multiple buffers! Jump to those registers positions with 'jump-to-register'
+
+
+** Powershell
+:PROPERTIES:
+:EXPORT_FILE_NAME: powershell
+:END:
+
+
+** Gortons
+:PROPERTIES:
+:EXPORT_FILE_NAME: gortons
+:END:
+I think these gave me the herpes.
+
+**** I belive that
+
+***** This is a TEST!?
+
+
+
+#+BEGIN_SRC emacs-lisp
+(setq wtf "santja"
+
+(this-is-a-test)
+
+#+END_SRC
+
+- Test
+- Test
+  
+
+| testing | tables  |
+| some    | o guess |
+|         |         |
+  
